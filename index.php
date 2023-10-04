@@ -24,8 +24,8 @@ define("URL", str_replace("index.php", "" , (isset($_SERVER['HTTPS']) ? "https" 
                 case "mentions-legales":
                     $mainController->getLegalPage();
                     break;
-                case "CGV":
-                    $mainController->getCGVPage();
+                case "sendMessage":
+                    $mainController->sendMessage();
                     break;
              
            
