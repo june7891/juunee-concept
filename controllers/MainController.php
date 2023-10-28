@@ -8,6 +8,9 @@ class MainController {
     public function getLegalpage(){
         require_once "views/mentions-legales.view.php";
     }
+
+
+
     public function sendMessage(){
 
 $errors = [];
