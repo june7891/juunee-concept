@@ -1,7 +1,7 @@
 <?php ob_start(); 
 ?>
 
-<section class="bg-black h-screen flex justify-center items-center">
+<section class="bg-gray-900 h-screen flex justify-center items-center">
 
     <div><svg id="logo" class="mb-20" width="1206" height="112" viewBox="0 0 1206 112" fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -53,16 +53,17 @@
 </section>
 
 <section id="about" class="h-screen bg-gray-100  p-20 flex items-center justify-center">
-    <div class="bg-white flex shadow-md">
+    <div class="bg-gray-900 flex shadow-md">
         <div class="flex flex-col items-center justify-center w-1/2 p-10">
-            <p class=" text-xl">Juunee Concept c'est l'alliance parfaite entre
-                <span class="text-2xl font-bold">innovation</span>,
-                <span class="text-3xl font-bold">créativité</span> et <span
-                    class="text-4xl font-bold">fonctionnalité</span>.
+            <p class="text-xl text-white p-3">Juunee Concept c'est l'alliance parfaite entre
+                innovation,
+                créativité et fonctionnalité.
             </p>
-            <p>La conception et le développement sur mesure pour concretiser vos idées en réalité numérique.</p>
+            <p class="text-white text-xl p-3">La conception et le développement sur mesure pour concretiser vos idées en
+                réalité
+                numérique.</p>
 
-            <p>Que se
+            <p class="text-white text-xl p-3">Que se
                 soit
                 pour,
                 un site intenet, une application web ou mobile, nous vous offons des solutions innovantes qui
@@ -83,38 +84,28 @@
 
 <section id="services" class="bg-gray-100 dark:bg-gray-900">
     <div class="py-4 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-        <div class="max-w-screen-md mb-4 lg:mb-8">
-            <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">Ce que nous
-                pouvons faire pour vous</h2>
-        </div>
+
+        <h2 class="mb-4 text-3xl tracking-tight font-extrabold mb-8 text-center text-gray-900 dark:text-white">Ce que
+            nous
+            pouvons faire pour vous</h2>
         <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
             <div class="bg-white p-10 shadow-xl">
                 <div class=" flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12
                 dark:bg-primary-900">
-                    <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
+                    <img src="<?= URL ?>/assets/images/icon-website.png" alt="icon website">
                 </div>
                 <h3 class="mb-2 text-xl font-bold dark:text-white">Conception de sites internet </h3>
-                <p class="text-gray-500 dark:text-gray-400">Du design à la mise en ligne, nous créons des sites web
+                <p class="text-gray-500 dark:text-gray-400">Du design à la mise en ligne, création des sites web
                     esthétiquement
                     attrayants et fonctionnellement efficaces qui captivent vos visiteurs.</p>
             </div>
             <div class="bg-white p-10 shadow-xl">
                 <div
                     class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                    <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z">
-                        </path>
-                    </svg>
+                    <img src="<?= URL ?>/assets/images/icon-web-app.png" alt="icon web app">
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">Applications Web Personnalisées</h3>
-                <p class="text-gray-500 dark:text-gray-400">Nous développons des applications web sur mesure qui
+                <h3 class="mb-2 text-xl font-bold dark:text-white">Applications web</h3>
+                <p class="text-gray-500 dark:text-gray-400">Développement des applications web sur mesure qui
                     répondent
                     exactement
                     à vos besoins, intégrant des fonctionnalités spécifiques pour vous démarquer.</p>
@@ -122,92 +113,60 @@
             <div class="bg-white p-10 shadow-xl">
                 <div
                     class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                    <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
-                            clip-rule="evenodd"></path>
-                        <path
-                            d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z">
-                        </path>
-                    </svg>
+                    <img src="<?= URL ?>/assets/images/icon-app.png" alt="icon app">
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">Applications Mobiles Intuitives </h3>
-                <p class="text-gray-500 dark:text-gray-400">Nous concevons des applications mobiles fluides et
+                <h3 class="mb-2 text-xl font-bold dark:text-white">Applications mobiles</h3>
+                <p class="text-gray-500 dark:text-gray-400">Conception des applications mobiles fluides et
                     conviviales pour offrir une expérience utilisateur
                     optimale sur les plateformes iOS et Android.</p>
             </div>
         </div>
     </div>
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-        <div class="max-w-screen-md mb-4 lg:mb-8">
-            <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">Notre Approche</h2>
-        </div>
+
+        <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-center  text-gray-900 dark:text-white">Notre
+            Approche</h2>
+
         <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-12 md:space-y-0">
             <div class="bg-white p-10 shadow-xl">
                 <div
                     class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                    <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
-                            clip-rule="evenodd"></path>
-                    </svg>
+
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">Compréhension approfondie</h3>
-                <p class="text-gray-500 dark:text-gray-400">Nous commençons par comprendre vos objectifs, votre public
+                <h3 class="mb-2 text-xl font-bold dark:text-white">Analyse approfondie</h3>
+                <p class="text-gray-500 dark:text-gray-400">Analyser de vos besoins, votre
+                    public
                     cible et vos
                     exigences pour façonner des solutions numériques sur mesure.</p>
             </div>
             <div class="bg-white p-10 shadow-xl">
                 <div
                     class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                    <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z">
-                        </path>
-                    </svg>
+
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">Conception Créative</h3>
-                <p class="text-gray-500 dark:text-gray-400">Conception Créative : Notre équipe de designers talentueux
-                    crée des interfaces et des expériences
+                <h3 class="mb-2 text-xl font-bold dark:text-white">Conception créative</h3>
+                <p class="text-gray-500 dark:text-gray-400">Création des interfaces et des expériences
                     utilisateur engageantes et esthétiquement plaisantes</p>
             </div>
             <div class="bg-white p-10 shadow-xl">
                 <div
                     class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                    <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
-                            clip-rule="evenodd"></path>
-                        <path
-                            d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z">
-                        </path>
-                    </svg>
+
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">Développement Expert </h3>
-                <p class="text-gray-500 dark:text-gray-400">Nos développeurs chevronnés utilisent
-                    les dernières technologies pour donner
+                <h3 class="mb-2 text-xl font-bold dark:text-white">Développement expert </h3>
+                <p class="text-gray-500 dark:text-gray-400">Utilisation
+                    des dernières technologies pour donner
                     vie à
                     vos projets et les rendre fonctionnels et performants.</p>
             </div>
             <div class="bg-white p-10 shadow-xl">
                 <div
                     class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                    <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" fill="currentColor"
-                        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
-                            clip-rule="evenodd"></path>
-                        <path
-                            d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z">
-                        </path>
-                    </svg>
+
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">Collaboration Transparente</h3>
-                <p class="text-gray-500 dark:text-gray-400">Nous croyons en une communication ouverte et régulière avec
+                <h3 class="mb-2 text-xl font-bold dark:text-white">Collaboration transparente</h3>
+                <p class="text-gray-500 dark:text-gray-400">Communication ouverte et régulière
+                    avec
                     nos clients
                     pour
                     garantir que chaque étape du projet réponde à leurs attentes.</p>
@@ -221,39 +180,40 @@
 
 
 
-<section class="bg-white dark:bg-gray-900" id="contact">
+<section class="bg-gray-900 dark:bg-gray-900" id="contact">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contactez nous
+        <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-center text-white dark:text-white">Contactez
+            nous
         </h2>
-        <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Prenez contact avec
+        <p class="mb-8 lg:mb-16 font-light text-center text-gray-200 sm:text-xl">Prenez contact avec
             nous aujourd'hui et laissez-nous vous aider à concrétiser votre vision numérique.
             Ensemble,
             créons quelque chose d'extraordinaire !
         </p>
         <form action="sendMessage" class="space-y-8">
             <div>
-                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Votre
+                <label for="email" class="block mb-2 text-sm font-medium text-gray-100 dark:text-gray-300">Votre
                     email</label>
                 <input name="email" type="email" id="email"
-                    class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-                    placeholder=" name@juunee-concept.com" required>
+                    class="shadow-sm p-3 bg-gray-50 border border-gray-300 text-black text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                    placeholder="name@juunee-concept.com" required>
             </div>
             <div>
-                <label for="subject"
-                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sujet</label>
+                <label for="subject" class="block mb-2 text-sm font-medium text-gray-100 dark:text-gray-300">
+                    Sujet</label>
                 <input name="subject" type="text" id="subject"
                     class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                     placeholder="Comment nous pouvons vous aider?" required>
             </div>
             <div class="sm:col-span-2">
-                <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Votre
+                <label for="message" class="block mb-2 text-sm font-medium text-gray-100 dark:text-gray-400"> Votre
                     message</label>
                 <textarea name="message" id="message" rows="6"
-                    class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                    class="block p-3  w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-100 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                     placeholder="Votre message ici..."></textarea>
             </div>
             <button type="submit"
-                class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-gray-700 sm:w-fit hover:bg-gray-500 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Envoyer</button>
+                class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-gray-700 sm:w-fit hover:bg-gray-100 hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Envoyer</button>
         </form>
     </div>
 </section>

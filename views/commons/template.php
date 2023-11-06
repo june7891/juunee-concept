@@ -23,6 +23,7 @@
 
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link href="assets/css/logo-animation.style.css" rel="stylesheet">
+    <link href="assets/css/custom-style.css" rel="stylesheet">
     </script>
     <title>Juunee Concept | Digital Solutions</title>
 </head>
