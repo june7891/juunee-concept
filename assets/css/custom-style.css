@@ -1,6 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2,
+h3,
+label {
+  font-family: "Krona One", sans-serif;
+}
 
-h2 {
-font-family: 'Krona One', sans-serif;
+.navbar-nav > .active > a {
+  color: rgb(53, 81, 173);
+}
+
+.img-container {
+  position: relative;
+}
+.img-container:hover {
+  background: rgba(10, 10, 10, 0.8);
+}
+
+.image {
+  position: relative;
+  z-index: -1;
+}
+
+.img-description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.img-container:hover .img-description {
+  visibility: visible;
+  opacity: 1;
 }

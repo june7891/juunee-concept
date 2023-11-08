@@ -1,5 +1,5 @@
 <?php
-
+require_once "Utils/Security.class.php";
 
 class MainController {
     public function getHomepage(){
@@ -16,29 +16,20 @@ class MainController {
 $errors = [];
 
 if (!empty($_POST)) {
-   $email = $_POST['email'];
-   $subject = $_POST['subject'];
-   $message = $_POST['message'];
-  
-   if (empty($email)) {
-       $errors[] = 'Name is empty';
-   }
-
-   if (empty($subject)) {
-       $errors[] = 'Email is empty';
-   } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-       $errors[] = 'Email is invalid';
-   }
-
-   if (empty($message)) {
-       $errors[] = 'Message is empty';
-   }
+   $email = Security::secureHTML($_POST['email']);
+   $subject = Security::secureHTML($_POST['subject']);
+   $text = Security::secureHTML($_POST['message']);
+   
+$to = "contact@tomajune.com";
+$from = $email;
+$message = $email . " vous a envoyé ce message :" . "\n\n" . $text;
+$headers = "From" . $from;
+mail($to, $subject, $message, $headers);
+require_once "views/message-sent.view.php";
 }
 
-if (!empty($errors)) {
-    $allErrors = join('<br/>', $errors);
-    $errorMessage = "<p style='color: red;'>{$allErrors}</p>";
- }
-      require_once "views/message-sent.view.php";
+
+
+      
     }
 }

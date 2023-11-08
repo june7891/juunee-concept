@@ -52,7 +52,8 @@
 
 </section>
 
-<section id="about" class="h-screen bg-gray-100  p-20 flex items-center justify-center">
+<section id="about" class="h-screen bg-gray-100  p-20 flex items-center justify-center" data-aos="fade-up"
+    data-aos-duration="2000">
     <div class="bg-gray-900 flex shadow-md">
         <div class="flex flex-col items-center justify-center w-1/2 p-10">
             <p class="text-xl text-white p-3">Juunee Concept c'est l'alliance parfaite entre
@@ -83,9 +84,9 @@
 
 
 <section id="services" class="bg-gray-100 dark:bg-gray-900">
-    <div class="py-4 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+    <div class="py-4 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6" data-aos="fade-right" data-aos-duration="1000">
 
-        <h2 class="mb-4 text-3xl tracking-tight font-extrabold mb-8 text-center text-gray-900 dark:text-white">Ce que
+        <h2 class="mb-8 text-3xl tracking-tight font-extrabold mb-8 text-center text-gray-900 dark:text-white">Ce que
             nous
             pouvons faire pour vous</h2>
         <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
@@ -94,7 +95,7 @@
                 dark:bg-primary-900">
                     <img src="<?= URL ?>/assets/images/icon-website.png" alt="icon website">
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">Conception de sites internet </h3>
+                <h3 class="mb-2 text-xl font-bold dark:text-white">Sites internet </h3>
                 <p class="text-gray-500 dark:text-gray-400">Du design à la mise en ligne, création des sites web
                     esthétiquement
                     attrayants et fonctionnellement efficaces qui captivent vos visiteurs.</p>
@@ -122,9 +123,9 @@
             </div>
         </div>
     </div>
-    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6" data-aos="fade-left" data-aos-duration="1000">
 
-        <h2 class="mb-4 text-3xl tracking-tight font-extrabold text-center  text-gray-900 dark:text-white">Notre
+        <h2 class="my-8 text-3xl tracking-tight font-extrabold text-center  text-gray-900 dark:text-white">Notre
             Approche</h2>
 
         <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-12 md:space-y-0">
@@ -178,6 +179,63 @@
 
 </section>
 
+<section id="projects" class="h-screen mb-4 text-3xl tracking-tight px-8 font-extrabold text-center" data-aos="fade-up">
+    <h2 class="my-8 text-3xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Derniers projets
+    </h2>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+
+        <div class="img-container rounded-lg">
+            <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>/assets/images/projects/clubadosapp.png"
+                alt="club ados app">
+            <p class="img-description text-sm font-regular">Une application web et mobile destinée aux espaces jeunesse
+                (en cours de développement)
+            </p>
+        </div>
+        <div class="img-container rounded-lg">
+            <a href="https://june7891.github.io/watch-landing-page/">
+                <img class="h-full max-w-full rounded-lg image"
+                    src="<?= URL ?>/assets/images/projects/prestige-watch.png" alt="prestige watch"></a>
+            <p class="img-description text-sm font-regular">Un landing page pour une marque de montre
+            </p>
+        </div>
+        <div class="img-container rounded-lg">
+            <a href="https://eu-rate.com/">
+                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>/assets/images/projects/eu-rate.png"
+                    alt="eu-rate"></a>
+            <p class="img-description text-sm font-regular">Un site web pour un projet robotique Erasmus+
+            </p>
+        </div>
+        <div class="img-container">
+            <a href="https://smilga.org/">
+                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>/assets/images/projects/smilga.png"
+                    alt="smilga"></a>
+            <p class="img-description text-sm font-regular">Un site web pour une association culturelle
+            </p>
+        </div>
+        <div class="img-container rounded-lg">
+            <a href="https://dev.clossaintsauveur.com/" target="_blank">
+                <img class="h-full max-w-full rounded-lg image"
+                    src="<?= URL ?>/assets/images/projects/saint-sauveur.png" alt="clos saint sauveur"></a>
+            <p class="img-description text-sm font-regular">Un site web pour une maison d'hôtes
+            </p>
+        </div>
+
+        <div class="img-container rounded-lg">
+            <a href="https://june7891.github.io/TJ-Nettoyage/">
+                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>/assets/images/projects/tj-nettoyage.png"
+                    alt="tj nettoyage"></a>
+            <p class="img-description text-sm font-regular">Un site web pour une agence de nettoyage
+            </p>
+        </div>
+
+    </div>
+
+
+
+
+</section>
+
 
 
 <section class="bg-gray-900 dark:bg-gray-900" id="contact">
@@ -190,7 +248,7 @@
             Ensemble,
             créons quelque chose d'extraordinaire !
         </p>
-        <form action="sendMessage" class="space-y-8">
+        <form method="POST" action=" sendMessage" class="space-y-8">
             <div>
                 <label for="email" class="block mb-2 text-sm font-medium text-gray-100 dark:text-gray-300">Votre
                     email</label>

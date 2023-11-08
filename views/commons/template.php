@@ -25,6 +25,7 @@
     <link href="assets/css/logo-animation.style.css" rel="stylesheet">
     <link href="assets/css/custom-style.css" rel="stylesheet">
     </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Juunee Concept | Digital Solutions</title>
 </head>
 
@@ -41,6 +42,10 @@
     <?php include_once 'footer.view.php' ?>
 
     <script src="assets/js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 
 </html>
