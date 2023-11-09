@@ -23,8 +23,9 @@ if (!empty($_POST)) {
 $to = "contact@tomajune.com";
 $from = $email;
 $message = $email . " vous a envoyé ce message :" . "\n\n" . $text;
-$headers = "From" . $from;
+$headers = "From " . $email;
 mail($to, $subject, $message, $headers);
+
 require_once "views/message-sent.view.php";
 }
 

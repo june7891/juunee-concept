@@ -45,6 +45,7 @@
             <path d="M952.367 33.1938H998.117V47.7508H952.367V33.1938Z" stroke="white" stroke-width="3" />
         </svg>
         <h2 id="showMe" class="text-white text-3xl mt-20 pt-20 uppercase ...">Solutions digitales sur mesure</h2>
+
     </div>
 
 
@@ -54,8 +55,8 @@
 
 <section id="about" class="h-screen bg-gray-100  p-20 flex items-center justify-center" data-aos="fade-up"
     data-aos-duration="2000">
-    <div class="bg-gray-900 flex shadow-md">
-        <div class="flex flex-col items-center justify-center w-1/2 p-10">
+    <div class="about-section-container bg-gray-900 flex shadow-md">
+        <div class="description flex flex-col items-center justify-center w-1/2 p-10">
             <p class="text-xl text-white p-3">Juunee Concept c'est l'alliance parfaite entre
                 innovation,
                 créativité et fonctionnalité.
@@ -73,7 +74,7 @@
                 vos besoins spécifiques </p>
         </div>
 
-        <div class="w-1/2"> <img class="object-fill" src="assets/images/smartphone-tablet.jpg"
+        <div class="w-1/2 image-container"> <img class="object-fill" src="assets/images/smartphone-tablet.jpg"
                 alt="smartphone tablette">
         </div>
     </div>
@@ -183,47 +184,47 @@
     <h2 class="my-8 text-3xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Derniers projets
     </h2>
 
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+    <div class="projects-container grid grid-cols-2 md:grid-cols-3 gap-4">
 
-        <div class="img-container rounded-lg">
-            <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>/assets/images/projects/clubadosapp.png"
+        <div class="img-container rounded-lg shadow-xl">
+            <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/clubadosapp.jpg"
                 alt="club ados app">
             <p class="img-description text-sm font-regular">Une application web et mobile destinée aux espaces jeunesse
                 (en cours de développement)
             </p>
         </div>
-        <div class="img-container rounded-lg">
-            <a href="https://june7891.github.io/watch-landing-page/">
-                <img class="h-full max-w-full rounded-lg image"
-                    src="<?= URL ?>/assets/images/projects/prestige-watch.png" alt="prestige watch"></a>
-            <p class="img-description text-sm font-regular">Un landing page pour une marque de montre
+        <div class="img-container rounded-lg shadow-xl">
+            <a href="https://june7891.github.io/watch-landing-page/" target="_blank">
+                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/prestige-watch.jpg"
+                    alt="prestige watch"></a>
+            <p class="img-description text-sm font-regular">Une landing page pour une marque de montre
             </p>
         </div>
-        <div class="img-container rounded-lg">
-            <a href="https://eu-rate.com/">
-                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>/assets/images/projects/eu-rate.png"
+        <div class="img-container rounded-lg shadow-xl">
+            <a href="https://eu-rate.com/" target="_blank">
+                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/eu-rate.jpg"
                     alt="eu-rate"></a>
             <p class="img-description text-sm font-regular">Un site web pour un projet robotique Erasmus+
             </p>
         </div>
-        <div class="img-container">
-            <a href="https://smilga.org/">
-                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>/assets/images/projects/smilga.png"
+        <div class="img-container rounded-lg shadow-xl">
+            <a href="https://smilga.org/" target="_blank">
+                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/smilga.jpg"
                     alt="smilga"></a>
             <p class="img-description text-sm font-regular">Un site web pour une association culturelle
             </p>
         </div>
-        <div class="img-container rounded-lg">
+        <div class="img-container rounded-lg shadow-xl">
             <a href="https://dev.clossaintsauveur.com/" target="_blank">
-                <img class="h-full max-w-full rounded-lg image"
-                    src="<?= URL ?>/assets/images/projects/saint-sauveur.png" alt="clos saint sauveur"></a>
+                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/saint-sauveur.jpg"
+                    alt="clos saint sauveur"></a>
             <p class="img-description text-sm font-regular">Un site web pour une maison d'hôtes
             </p>
         </div>
 
-        <div class="img-container rounded-lg">
-            <a href="https://june7891.github.io/TJ-Nettoyage/">
-                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>/assets/images/projects/tj-nettoyage.png"
+        <div class="img-container rounded-lg shadow-xl">
+            <a href="https://june7891.github.io/TJ-Nettoyage/" target="_blank">
+                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/tj-nettoyage.jpg"
                     alt="tj nettoyage"></a>
             <p class="img-description text-sm font-regular">Un site web pour une agence de nettoyage
             </p>

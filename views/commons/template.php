@@ -22,10 +22,12 @@
     <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
 
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"></script>
     <link href="assets/css/logo-animation.style.css" rel="stylesheet">
     <link href="assets/css/custom-style.css" rel="stylesheet">
     </script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8bff0007f7.js" crossorigin="anonymous"></script>
     <title>Juunee Concept | Digital Solutions</title>
 </head>
 

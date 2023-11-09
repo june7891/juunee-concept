@@ -4,13 +4,6 @@
 const logo = document.querySelectorAll("#logo path");
 
 
-for(let i = 0; i < logo.length; i++){
-    console.log(`letter ${i} is ${logo[i].getTotalLength()}`);
-}
-
-
-
- 
 document.addEventListener('DOMContentLoaded', function () {
     const navItems = document.querySelectorAll('ul.navbar-nav > li');
   
@@ -23,3 +16,19 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   });
+
+
+  
+
+  let toggle = document.querySelector('.toggle');
+let body = document.querySelector('body');
+
+toggle.addEventListener('click', function() {
+    body.classList.toggle('show');
+})
+
+let link = document.querySelector('.menu');
+
+link.addEventListener('click', function() {
+    body.classList.remove('show');
+})
