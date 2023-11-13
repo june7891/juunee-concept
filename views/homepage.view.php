@@ -1,7 +1,7 @@
 <?php ob_start(); 
 ?>
 
-<section class="bg-gray-900 h-screen flex justify-center items-center">
+<section class="header bg-gray-900 h-screen w-full flex justify-center items-center">
 
     <div><svg id="logo" class="mb-20" width="1206" height="112" viewBox="0 0 1206 112" fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -85,7 +85,7 @@
 
 
 <section id="services" class="bg-gray-100 dark:bg-gray-900">
-    <div class="py-4 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6" data-aos="fade-right" data-aos-duration="1000">
+    <div class="py-4 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6" data-aos="fade-up" data-aos-duration=" 1000">
 
         <h2 class="mb-8 text-3xl tracking-tight font-extrabold mb-8 text-center text-gray-900 dark:text-white">Ce que
             nous
@@ -124,7 +124,7 @@
             </div>
         </div>
     </div>
-    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6" data-aos="fade-left" data-aos-duration="1000">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6" data-aos="fade-up" data-aos-duration="1000">
 
         <h2 class="my-8 text-3xl tracking-tight font-extrabold text-center  text-gray-900 dark:text-white">Notre
             Approche</h2>
@@ -180,11 +180,12 @@
 
 </section>
 
-<section id="projects" class="h-screen mb-4 text-3xl tracking-tight px-8 font-extrabold text-center" data-aos="fade-up">
+<section id="projects" class=" mb-4 text-3xl tracking-tight px-8 font-extrabold text-center" data-aos="fade-up"
+    data-aos-duration="1000">
     <h2 class="my-8 text-3xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Derniers projets
     </h2>
 
-    <div class="projects-container grid grid-cols-2 md:grid-cols-3 gap-4">
+    <div class="projects-container grid grid-cols-2 md:grid-cols-3 gap-4" data-aos="fade-up">
 
         <div class="img-container rounded-lg shadow-xl">
             <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/clubadosapp.jpg"
@@ -212,6 +213,13 @@
                 <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/smilga.jpg"
                     alt="smilga"></a>
             <p class="img-description text-sm font-regular">Un site web pour une association culturelle
+            </p>
+        </div>
+        <div class="img-container rounded-lg shadow-xl">
+            <a href="https://unity-cargo.tomajune.com/" target="_blank">
+                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/unity-cargo.png"
+                    alt="clos saint sauveur"></a>
+            <p class="img-description text-sm font-regular">Un site web pour une entreprise de transport international
             </p>
         </div>
         <div class="img-container rounded-lg shadow-xl">

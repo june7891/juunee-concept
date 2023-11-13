@@ -7,7 +7,7 @@
     <meta name="description"
         content="Conception et développement d'applications web et mobile sur mesure. Transformez vos idées en solutions digitales innovantes. Contactez nous pour des applications performantes et intuitives, adaptées à vos besoins et à votre succès en ligne">
     <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#e6e8d4" />
+    <meta name="theme-color" content="#1A202C" />
 
     <meta property="og:title" content="Juunee Concept - Digital Solutions">
     <meta property="og:type" content="website">
