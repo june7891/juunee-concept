@@ -3,22 +3,25 @@
         <a href="#" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
             <img src="assets/images/logo.svg" alt="Juunee Concept Logo">
         </a>
-        <p class="my-6 text-gray-800">Conception et développement web, applications mobiles,
+        <p class="my-6 text-gray-950">Conception et développement web, applications mobiles,
             référencement et bien plus</p>
         <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
             <li>
-                <a href="<?= URL ?>#about" class="mr-4 font-semibold hover:text-blue-700 md:mr-6 ">A propos</a>
+                <a href="<?= URL ?>#about" class="mr-4 font-semibold hover:text-blue-700 md:mr-6 underline ...">A
+                    propos</a>
             </li>
 
             <li>
-                <a href="<?= URL ?>#services" class="mr-4 font-semibold hover:text-blue-700 md:mr-6 ">Services</a>
+                <a href="<?= URL ?>#services"
+                    class="mr-4 font-semibold hover:text-blue-700 md:mr-6 underline ...">Services</a>
             </li>
             <li>
-                <a href="<?= URL ?>#contact" class="mr-4 font-semibold hover:text-blue-700 md:mr-6">Contact</a>
+                <a href="<?= URL ?>#contact"
+                    class="mr-4 font-semibold hover:text-blue-700 md:mr-6 underline ...">Contact</a>
             </li>
             <li>
                 <a href="<?= URL ?>mentions-legales"
-                    class="mr-4 font-semibold hover:text-blue-700 md:mr-6 rounded">Mentions
+                    class="mr-4 font-semibold hover:text-blue-700 md:mr-6 rounded underline ...">Mentions
                     légales</a>
             </li>
         </ul>

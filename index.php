@@ -27,10 +27,19 @@ define("URL", str_replace("index.php", "" , (isset($_SERVER['HTTPS']) ? "https" 
                 case "sendMessage":
                     $mainController->sendMessage();
                     break;
+                case "creation-site-internet":
+                    $mainController->getWebsitePage();
+                    break;
+                case "creation-application-web":
+                    $mainController->getWebAppPage();
+                    break;
+                case "creation-application-mobile":
+                    $mainController->getMobileAppPage();
+                    break;
              
            
                 default:
-                    throw new Exception("La page n'existe pas");
+                $mainController->getHomepage();
     
                 }    
         }

@@ -5,6 +5,17 @@ class MainController {
     public function getHomepage(){
         require_once "views/homepage.view.php";
     }
+
+    public function getWebsitePage(){
+        require_once "views/website-page.view.php";
+    }
+    public function getWebAppPage(){
+        require_once "views/web-app-page.view.php";
+    }
+    public function getMobileAppPage(){
+        require_once "views/mobile-app-page.view.php";
+    }
+    
     public function getLegalpage(){
         require_once "views/mentions-legales.view.php";
     }
@@ -23,7 +34,7 @@ if (!empty($_POST)) {
 $to = "contact@tomajune.com";
 $from = $email;
 $message = $email . " vous a envoyé ce message :" . "\n\n" . $text;
-$headers = "From " . $email;
+$headers = "From: " . $from;
 mail($to, $subject, $message, $headers);
 
 require_once "views/message-sent.view.php";

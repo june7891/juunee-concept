@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Conception et développement d'applications web et mobile sur mesure. Transformez vos idées en solutions digitales innovantes. Contactez nous pour des applications performantes et intuitives, adaptées à vos besoins et à votre succès en ligne">
-    <meta name="robots" content="index, follow">
+        content="Juunee Concept - Création site internet, applications web et mobiles, référencement et bien plus.">
+    <meta name=" robots" content="index, follow">
     <meta name="theme-color" content="#1A202C" />
-
     <meta property="og:title" content="Juunee Concept - Digital Solutions">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.juunee-concept.com">
-    <meta property="og:image" content="https://www.juunee-concept.com/images/logo.png">
+    <meta property="og:image" content="https://www.juunee-concept.com/assets/images/logo-blue-bckg.jpg">
+    <meta name="keywords" content="création, site, internet, application, web, mobile, gironde">
     <meta property="og:description"
-        content="Votre partenaire pour des solutions digitales innovantes et sur mesure. Conception et développement web, applications mobiles, référencement et bien plus.">
+        content="Juunee Concept - Création site internet, applications web et mobiles, référencement et bien plus.">
 
 
     <link rel="canonical" href="https://www.juunee-concept.com/">
@@ -25,6 +25,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.1/dist/cdn.min.js"></script>
     <link href="assets/css/logo-animation.style.css" rel="stylesheet">
     <link href="assets/css/custom-style.css" rel="stylesheet">
+    <link href="assets/css/services-style.css" rel="stylesheet">
     </script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8bff0007f7.js" crossorigin="anonymous"></script>

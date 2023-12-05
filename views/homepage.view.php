@@ -44,7 +44,10 @@
             <path d="M952.367 68.5464H1019.95V83.1035H952.367V68.5464Z" stroke="white" stroke-width="3" />
             <path d="M952.367 33.1938H998.117V47.7508H952.367V33.1938Z" stroke="white" stroke-width="3" />
         </svg>
-        <h2 id="showMe" class="text-white text-3xl mt-20 pt-20 uppercase ...">Solutions digitales sur mesure</h2>
+        <h2 id="showMe" class="text-white text-center text-3xl mt-40 pt-20 uppercase ...">Transformez vos idées en
+            solutions
+            digitales sur mesure!</h2>
+        <!-- <button id="showMe">Découvrir</button> -->
 
     </div>
 
@@ -57,21 +60,13 @@
     data-aos-duration="2000">
     <div class="about-section-container bg-gray-900 flex shadow-md">
         <div class="description flex flex-col items-center justify-center w-1/2 p-10">
-            <p class="text-xl text-white p-3">Juunee Concept c'est l'alliance parfaite entre
-                innovation,
-                créativité et fonctionnalité.
+            <p class="text-xl text-white p-3">Juunee Concept vous accompagne dans vos projets numériques: création site
+                internet, application web ou mobile.
             </p>
-            <p class="text-white text-xl p-3">La conception et le développement sur mesure pour concretiser vos idées en
-                réalité
-                numérique.</p>
+            <p class="text-white text-xl p-3">Nous proposons des solutions digitales adaptées aux besoins de tous types
+                de clients: associations, petites entreprises, collectivités.</p>
 
-            <p class="text-white text-xl p-3">Que se
-                soit
-                pour,
-                un site intenet, une application web ou mobile, nous vous offons des solutions innovantes qui
-                répondent
-                à
-                vos besoins spécifiques </p>
+            <p class="text-white text-xl p-3"></p>
         </div>
 
         <div class="w-1/2 image-container"> <img class="object-fill" src="assets/images/smartphone-tablet.jpg"
@@ -91,16 +86,19 @@
             nous
             pouvons faire pour vous</h2>
         <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
-            <div class="bg-white p-10 shadow-xl">
-                <div class=" flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12
+
+            <a href="creation-site-internet">
+                <div class="bg-white p-10 shadow-xl">
+                    <div class=" flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12
                 dark:bg-primary-900">
-                    <img src="<?= URL ?>/assets/images/icon-website.png" alt="icon website">
+                        <img src="<?= URL ?>/assets/images/icon-website.png" alt="icon website">
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold dark:text-white">Sites internet </h3>
+                    <p class="text-gray-500 dark:text-gray-400">Du design à la mise en ligne, création des sites web
+                        esthétiquement
+                        attrayants et fonctionnellement efficaces qui captivent vos visiteurs.</p>
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">Sites internet </h3>
-                <p class="text-gray-500 dark:text-gray-400">Du design à la mise en ligne, création des sites web
-                    esthétiquement
-                    attrayants et fonctionnellement efficaces qui captivent vos visiteurs.</p>
-            </div>
+            </a>
             <div class="bg-white p-10 shadow-xl">
                 <div
                     class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
@@ -227,6 +225,13 @@
                 <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/saint-sauveur.jpg"
                     alt="clos saint sauveur"></a>
             <p class="img-description text-sm font-regular">Un site web pour une maison d'hôtes
+            </p>
+        </div>
+        <div class="img-container rounded-lg shadow-xl">
+            <a href="https://juunee-concept.com" target="_blank">
+                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/epique-restaurant.png"
+                    alt="clos saint sauveur"></a>
+            <p class="img-description text-sm font-regular">Un site web pour un restautant
             </p>
         </div>
 

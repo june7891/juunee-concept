@@ -1,6 +1,6 @@
 <nav class="bg-white fixed w-full z-20 top-0 left-0 mb-8 border-gray-200 dark:bg-gray-900">
     <div class="navbar max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="https://juunee-concept.com/" class="flex items-center">
+        <a href="<?=URL?>" class="flex items-center">
             <img src="assets/images/logo.svg" class=" h-8 mr-3" alt="Juunee Concept Logo" />
 
         </a>
