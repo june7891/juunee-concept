@@ -6,4 +6,4 @@
     <img class="w-1/2 mx-auto my-20" src="<?= URL ?>assets/images/message-sent.jpg" alt="avion papier">
 </section>
 
-<?php $content=ob_get_clean(); $titre="message envoyé" ; require "views/commons/template.php" ; ?>
+<?php $content=ob_get_clean(); $titre="Message envoyé"; $url="https://juunee-concept.com/message-envoyé"; require "views/commons/template.php" ; ?>

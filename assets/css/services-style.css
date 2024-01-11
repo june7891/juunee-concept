@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+
+
+
 .website-page-hero {
     height: 20rem;
-    background-image: url(https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url("https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1630&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -10,13 +14,45 @@
     align-items: center;
 }
 
-.website-page-hero .title-background h1 {
-    font-size: 3rem;
-    color: whitesmoke;
-}
+
 
 .title-background {
     background-color: rgba(0, 0, 0, 0.5);
+    color: #ffff;
     width: 100%;
 }
 
+
+
+.web-app-page-hero {
+    height: 20rem;
+    background-image: url("https://images.pexels.com/photos/16129877/pexels-photo-16129877/free-photo-of-ordinateur-portable-lit-ordinateur-maison.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile-app-page-hero {
+    height: 20rem;
+    background-image: url("https://images.unsplash.com/photo-1610664921890-ebad05086414?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 500px) {
+
+    .website-page-hero, .mobile-app-page-hero, .web-app-page-hero {
+        background-attachment: scroll;
+    }
+
+
+}

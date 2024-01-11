@@ -12,8 +12,10 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     overflow-x: hidden;
+    background-color: #f9fafb;
 }
 
+h1,
 h2,
 h3,
 label {
@@ -46,7 +48,7 @@ label {
   opacity: 0;
 
   /* transition effect. not necessary */
-  transition: opacity 0.2s, visibility 0.2s;
+  transition: opacity 0.5s, visibility 0.5s;
 }
 
 .toggle {
@@ -78,8 +80,6 @@ label {
     width: 100vw;
     margin: 0;
   }
-}
-@media (max-width: 1024px) {
 }
 
 @media (max-width: 768px) {
@@ -149,26 +149,6 @@ label {
 @media (max-width: 500px) {
   nav {
     width: 100vw !important;
-  }
-
-  #about {
-    padding: 0;
-  }
-  .about-section-container {
-    flex-direction: column;
-  }
-  .image-container img {
-    display: none;
-  }
-
-  .description {
-    padding: 10px;
-    width: 100%;
-  }
-
-  .description p {
-    padding: 10px;
-    font-size: 18px;
   }
 
   #projects {

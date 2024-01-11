@@ -3,7 +3,7 @@
 
 <section class="header bg-gray-900 h-screen w-full flex justify-center items-center">
 
-    <div><svg id="logo" class="mb-20" width="1206" height="112" viewBox="0 0 1206 112" fill="none"
+    <div><svg id="logo" class="mb-20 w-3/4" width="1206" height="112" viewBox="0 0 1206 112" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path
                 d="M2 95.5708C4.33546 94.1492 6.33245 92.6599 7.99097 91.103C9.68333 89.546 11.0711 87.8198 12.1542 85.9243C13.2373 84.0627 14.0327 81.9811 14.5404 79.6795C15.0481 77.344 15.302 74.704 15.302 71.7592V3.06619H31.3964V68.8653C31.3964 72.3854 31.244 75.6009 30.9394 78.5118C30.6348 81.3888 30.1271 84.0289 29.4163 86.432C28.7393 88.869 27.8085 91.103 26.6239 93.1338C25.4731 95.1646 24.0346 97.0939 22.3084 98.9217C20.616 100.749 18.6021 102.51 16.2666 104.202C13.965 105.894 11.2911 107.604 8.24482 109.33L2 95.5708Z"
@@ -44,10 +44,21 @@
             <path d="M952.367 68.5464H1019.95V83.1035H952.367V68.5464Z" stroke="white" stroke-width="3" />
             <path d="M952.367 33.1938H998.117V47.7508H952.367V33.1938Z" stroke="white" stroke-width="3" />
         </svg>
-        <h2 id="showMe" class="text-white text-center text-3xl mt-40 pt-20 uppercase ...">Transformez vos idées en
+        <h2 id="showMe"
+            class="text-white text-center text-xs mt-48 md:mt-48 md:text-xl lg:mt-48 lg:text-2xl xl:mt-56 uppercase ...">
+            Transformez vos
+            idées
+            en
             solutions
             digitales sur mesure!</h2>
-        <!-- <button id="showMe">Découvrir</button> -->
+        <div class="text-center my-5" id="showMe">
+            <a href="https://www.facebook.com/profile.php?id=61553262272246" target="_blank"><i
+                    class="fa-brands fa-facebook text-white text-2xl mx-5"></i></a>
+            <a href="https://www.instagram.com/juunee_concept/" target="_blank"><i
+                    class="fa-brands fa-instagram text-white text-2xl mx-5"></i></a>
+            <a href="https://www.linkedin.com/company/juunee-concept/" target="_blank"><i
+                    class="fa-brands fa-linkedin text-white text-2xl mx-5"></i></a>
+        </div>
 
     </div>
 
@@ -56,21 +67,22 @@
 
 </section>
 
-<section id="about" class="h-screen bg-gray-100  p-20 flex items-center justify-center" data-aos="fade-up"
-    data-aos-duration="2000">
-    <div class="about-section-container bg-gray-900 flex shadow-md">
-        <div class="description flex flex-col items-center justify-center w-1/2 p-10">
-            <p class="text-xl text-white p-3">Juunee Concept vous accompagne dans vos projets numériques: création site
-                internet, application web ou mobile.
-            </p>
-            <p class="text-white text-xl p-3">Nous proposons des solutions digitales adaptées aux besoins de tous types
-                de clients: associations, petites entreprises, collectivités.</p>
+<section id="about" class="mb-20 xl:h-screen bg-gray-900 xl:bg-gray-100 xl:p-20 flex items-center justify-center"
+    data-aos="fade-up" data-aos-duration="2000">
+    <div class="about-section-container bg-gray-900 flex flex-col md:flex-row lg:flex-row xl:flex-row shadow-md">
 
-            <p class="text-white text-xl p-3"></p>
+        <div class="p-10 h-1/2 description flex flex-col items-center justify-center xl:w-1/2">
+            <h1 class="text-white text-xl mb-10">Juunee Concept - Solutions digitales sur mesure</h1>
+            <p class="text-xl text-white">Juunee Concept, votre partenaire privilégié pour la concrétisation de vos
+                projets numériques tels que la création de site internet, d'applications web ou mobiles. Nos solutions
+                digitales sont conçues sur mesure pour répondre aux besoins variés de clients diversifiés, qu'il
+                s'agisse d'associations, de petites entreprises ou de collectivités.
+            </p>
+
         </div>
 
-        <div class="w-1/2 image-container"> <img class="object-fill" src="assets/images/smartphone-tablet.jpg"
-                alt="smartphone tablette">
+        <div class="xl:w-1/2 image-container"> <img class="object-fill" src="assets/images/about-img.png"
+                alt="création web app et app mobile">
         </div>
     </div>
 
@@ -82,57 +94,62 @@
 <section id="services" class="bg-gray-100 dark:bg-gray-900">
     <div class="py-4 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6" data-aos="fade-up" data-aos-duration=" 1000">
 
-        <h2 class="mb-8 text-3xl tracking-tight font-extrabold mb-8 text-center text-gray-900 dark:text-white">Ce que
+        <h2 class="mb-8 text-2xl xl:text-3xl tracking-tight font-bold mb-8 text-center text-gray-950 dark:text-white">Ce
+            que
             nous
             pouvons faire pour vous</h2>
         <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
 
             <a href="creation-site-internet">
-                <div class="bg-white p-10 shadow-xl">
-                    <div class=" flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12
+                <div class="mb-10 bg-white p-10 shadow-xl">
+                    <div class=" flex justify-center items-center mx-auto mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12
                 dark:bg-primary-900">
-                        <img src="<?= URL ?>/assets/images/icon-website.png" alt="icon website">
+                        <img src="<?= URL ?>/assets/images/icon-website.png"
+                            alt="icon création site web juunee concept">
                     </div>
-                    <h3 class="mb-2 text-xl font-bold dark:text-white">Sites internet </h3>
-                    <p class="text-gray-500 dark:text-gray-400">Du design à la mise en ligne, création des sites web
+                    <h3 class="mb-2 text-xl text-center font-bold dark:text-white">Sites internet </h3>
+                    <p class="text-gray-950 dark:text-gray-400">Du design à la mise en ligne, création des sites web
                         esthétiquement
                         attrayants et fonctionnellement efficaces qui captivent vos visiteurs.</p>
                 </div>
             </a>
-            <div class="bg-white p-10 shadow-xl">
-                <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                    <img src="<?= URL ?>/assets/images/icon-web-app.png" alt="icon web app">
+            <a href="creation-application-web">
+                <div class="mb-10 bg-white p-10 shadow-xl">
+                    <div
+                        class="flex justify-center text-center items-center mx-auto mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <img src="<?= URL ?>assets/images/icon-web-app.png"
+                            alt="icon création application web juunee concept">
+                    </div>
+                    <h3 class="mb-2 text-xl text-center font-bold dark:text-white">Applications web</h3>
+                    <p class="text-gray-950 dark:text-gray-400">Développement des applications web sur mesure qui
+                        répondent
+                        à vos besoins, intégrant des fonctionnalités spécifiques pour vous démarquer.</p>
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">Applications web</h3>
-                <p class="text-gray-500 dark:text-gray-400">Développement des applications web sur mesure qui
-                    répondent
-                    exactement
-                    à vos besoins, intégrant des fonctionnalités spécifiques pour vous démarquer.</p>
-            </div>
-            <div class="bg-white p-10 shadow-xl">
-                <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-                    <img src="<?= URL ?>/assets/images/icon-app.png" alt="icon app">
+            </a>
+            <a href="creation-application-mobile">
+                <div class="bg-white p-10 shadow-xl">
+                    <div
+                        class="flex justify-center items-center mx-auto mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                        <img class="w-10 h-14" src="<?= URL ?>/assets/images/icon-app.png"
+                            alt="icon création application mobile juunee concept">
+                    </div>
+                    <h3 class="mb-2 text-xl text-center font-bold dark:text-white">Applications mobiles</h3>
+                    <p class="text-gray-950 dark:text-gray-400">Conception des applications mobiles fluides et
+                        conviviales pour offrir une expérience utilisateur
+                        optimale sur les plateformes iOS et Android.</p>
                 </div>
-                <h3 class="mb-2 text-xl font-bold dark:text-white">Applications mobiles</h3>
-                <p class="text-gray-500 dark:text-gray-400">Conception des applications mobiles fluides et
-                    conviviales pour offrir une expérience utilisateur
-                    optimale sur les plateformes iOS et Android.</p>
-            </div>
+            </a>
         </div>
     </div>
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6" data-aos="fade-up" data-aos-duration="1000">
 
-        <h2 class="my-8 text-3xl tracking-tight font-extrabold text-center  text-gray-900 dark:text-white">Notre
+        <h2 class="my-8 text-2xl xl:text-3xl tracking-tight font-extrabold text-center  text-gray-900 dark:text-white">
+            Notre
             Approche</h2>
 
         <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-12 md:space-y-0">
             <div class="bg-white p-10 shadow-xl">
-                <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
 
-                </div>
                 <h3 class="mb-2 text-xl font-bold dark:text-white">Analyse approfondie</h3>
                 <p class="text-gray-500 dark:text-gray-400">Analyser de vos besoins, votre
                     public
@@ -140,19 +157,13 @@
                     exigences pour façonner des solutions numériques sur mesure.</p>
             </div>
             <div class="bg-white p-10 shadow-xl">
-                <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
 
-                </div>
                 <h3 class="mb-2 text-xl font-bold dark:text-white">Conception créative</h3>
                 <p class="text-gray-500 dark:text-gray-400">Création des interfaces et des expériences
                     utilisateur engageantes et esthétiquement plaisantes</p>
             </div>
             <div class="bg-white p-10 shadow-xl">
-                <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
 
-                </div>
                 <h3 class="mb-2 text-xl font-bold dark:text-white">Développement expert </h3>
                 <p class="text-gray-500 dark:text-gray-400">Utilisation
                     des dernières technologies pour donner
@@ -160,10 +171,6 @@
                     vos projets et les rendre fonctionnels et performants.</p>
             </div>
             <div class="bg-white p-10 shadow-xl">
-                <div
-                    class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
-
-                </div>
                 <h3 class="mb-2 text-xl font-bold dark:text-white">Collaboration transparente</h3>
                 <p class="text-gray-500 dark:text-gray-400">Communication ouverte et régulière
                     avec
@@ -178,7 +185,7 @@
 
 </section>
 
-<section id="projects" class=" mb-4 text-3xl tracking-tight px-8 font-extrabold text-center" data-aos="fade-up"
+<section id="projects" class="mb-20 text-3xl tracking-tight px-8 font-extrabold text-center" data-aos="fade-up"
     data-aos-duration="1000">
     <h2 class="my-8 text-3xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Derniers projets
     </h2>
@@ -186,8 +193,17 @@
     <div class="projects-container grid grid-cols-2 md:grid-cols-3 gap-4" data-aos="fade-up">
 
         <div class="img-container rounded-lg shadow-xl">
+            <a href="https:/njlonettoyage.fr" target="_blank">
+                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/njlonettoyage.png"
+                    alt="site internet pour NJ&LO Nettoyage écoresponsable">
+                <p class="img-description text-sm font-regular">Un site internet pour "NJ&LO Nettoyage", entreprise de
+                    nettoyage écoresponsable en Gironde.
+                </p>
+            </a>
+        </div>
+        <div class="img-container rounded-lg shadow-xl">
             <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/clubadosapp.jpg"
-                alt="club ados app">
+                alt="landing page pour une application club ados app">
             <p class="img-description text-sm font-regular">Une application web et mobile destinée aux espaces jeunesse
                 (en cours de développement)
             </p>
@@ -195,42 +211,44 @@
         <div class="img-container rounded-lg shadow-xl">
             <a href="https://june7891.github.io/watch-landing-page/" target="_blank">
                 <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/prestige-watch.jpg"
-                    alt="prestige watch"></a>
-            <p class="img-description text-sm font-regular">Une landing page pour une marque de montre
-            </p>
+                    alt="landing page pour une marque de montre prestige watch">
+                <p class="img-description text-sm font-regular">Une landing page pour une marque de montre
+                </p>
+            </a>
         </div>
         <div class="img-container rounded-lg shadow-xl">
             <a href="https://eu-rate.com/" target="_blank">
                 <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/eu-rate.jpg"
-                    alt="eu-rate"></a>
-            <p class="img-description text-sm font-regular">Un site web pour un projet robotique Erasmus+
-            </p>
+                    alt="site internet pour le projet Erasmus+ Eu-rate">
+                <p class="img-description text-sm font-regular">Un site web pour un projet robotique Erasmus+
+                </p>
+            </a>
         </div>
         <div class="img-container rounded-lg shadow-xl">
             <a href="https://smilga.org/" target="_blank">
                 <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/smilga.jpg"
-                    alt="smilga"></a>
+                    alt="site vitrine pour l'association Smilga"></a>
             <p class="img-description text-sm font-regular">Un site web pour une association culturelle
             </p>
         </div>
         <div class="img-container rounded-lg shadow-xl">
             <a href="https://unity-cargo.tomajune.com/" target="_blank">
                 <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/unity-cargo.png"
-                    alt="clos saint sauveur"></a>
+                    alt="site internet pour une entreprise de transport international"></a>
             <p class="img-description text-sm font-regular">Un site web pour une entreprise de transport international
             </p>
         </div>
         <div class="img-container rounded-lg shadow-xl">
-            <a href="https://dev.clossaintsauveur.com/" target="_blank">
+            <a href="https://clossaintsauveur.com/" target="_blank">
                 <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/saint-sauveur.jpg"
-                    alt="clos saint sauveur"></a>
+                    alt="site internet pour la maison d'hôtes Clos Saint Sauveur"></a>
             <p class="img-description text-sm font-regular">Un site web pour une maison d'hôtes
             </p>
         </div>
         <div class="img-container rounded-lg shadow-xl">
-            <a href="https://juunee-concept.com" target="_blank">
+            <a href="/" target="_blank">
                 <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/epique-restaurant.png"
-                    alt="clos saint sauveur"></a>
+                    alt="site internet pour un restaurant"></a>
             <p class="img-description text-sm font-regular">Un site web pour un restautant
             </p>
         </div>
@@ -238,7 +256,7 @@
         <div class="img-container rounded-lg shadow-xl">
             <a href="https://june7891.github.io/TJ-Nettoyage/" target="_blank">
                 <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/tj-nettoyage.jpg"
-                    alt="tj nettoyage"></a>
+                    alt="site internet pour une entreprise de nettoyage"></a>
             <p class="img-description text-sm font-regular">Un site web pour une agence de nettoyage
             </p>
         </div>
@@ -292,4 +310,4 @@
 
 
 
-<?php $content=ob_get_clean(); $titre="Page d'accueil" ; require "views/commons/template.php" ; ?>
+<?php $content=ob_get_clean(); $titre="Juunee Concept | Solutions Digitales"; $url="https://www.juunee-concept.com/"; $image="https://www.juunee-concept.com/assets/images/logo-blue-bckg.jpg"; require "views/commons/template.php" ; ?>

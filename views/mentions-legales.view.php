@@ -2,21 +2,25 @@
 ?>
 
 <section class="my-20">
-    <h2 class="text-black text-3xl text-center font-bold"> Mentions légales</h2>
-    <h3 class="text-xl mx-20 my-5 font-bold">Edition du site</h3>
-    <p class="mx-20 my-5">Le présent site, accessible à l’URL www.juunee-concept.com (le « Site »), est édité par :<br>
+    <h2 class="text-black text-lg lg:text-3xl text-center font-bold"> Mentions légales</h2>
+    <h3 class="text-md md:text-xl mx-20 my-5 font-bold">Edition du site</h3>
+    <p class="mx-5 lg:mx-20 my-5">Le présent site, accessible à l’URL www.juunee-concept.com (le « Site »), est édité
+        par
+        :<br>
 
         Toma Juneviciute, résidant 2 Rue Françoise Sagan 33140 Villenave d'Ornon, de nationalité Lituanienne (Lituanie),
         né(e) le 19/11/1987,
     </p>
 
 
-    <p class="mx-20 my-5">Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en
+    <p class="mx-5 lg:mx-20 my-5">Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance
+        en
         l'économie
         numérique, il
         est précisé aux utilisateurs du site juunee-concept l'identité des différents intervenants dans le cadre de sa
         réalisation et de son suivi.</p>
-    <p class="mx-20">La navigation sur le site www.juunee-concept.com implique l’acceptation pleine et entière des
+    <p class="mx-5 lg:mx-20">La navigation sur le site www.juunee-concept.com implique l’acceptation pleine et entière
+        des
         conditions
         générales d’utilisation décrites ci-après. Ces conditions d’utilisation sont susceptibles d’être modifiées ou
         complétées à
@@ -53,29 +57,31 @@
         de Propriété Intellectuelle.</p>
 
 
-    <h3 class="text-xl mx-20 my-5 font-bold">Hébergement du site</h3>
-    <p class="mx-20 my-5">Le Site est hébergé par la société OVH SAS, situé 2 rue Kellermann - BP 80157 - 59053 Roubaix
+    <h3 class="text-md lg:text-xl mx-20 my-5 font-bold">Hébergement du site</h3>
+    <p class="mx-5 lg:mx-20 my-5">Le Site est hébergé par la société OVH SAS, situé 2 rue Kellermann - BP 80157 - 59053
+        Roubaix
         Cedex 1, (contact
         téléphonique ou email : 1007).</p>
 
 
 
-    <h3 class="text-xl mx-20 my-5 font-bold">Nous contacter</h3>
+    <h3 class="text-md lg:text-xl mx-20 my-5 font-bold">Nous contacter</h3>
 
-    <ul class="mx-20 my-5">
+    <ul class="mx-5 lg:mx-20 my-5">
         <li>Par téléphone : +33699171596</li>
         <li>Par email : contact@tomajune.com</li>
         <li>Par courrier : 2 Rue Françoise Sagan 33140 Villenave d'Ornon</li>
     </ul>
 
-    <h3 class="text-xl mx-20 my-5 font-bold">Données personnelles</h3>
-    <p class="mx-20 my-5">Le traitement de vos données à caractère personnel est régi par notre Charte du respect de la
+    <h3 class="text-md lg:text-xl mx-10 my-5 font-bold">Données personnelles</h3>
+    <p class="mx-5 lg:mx-20 my-5">Le traitement de vos données à caractère personnel est régi par notre Charte du
+        respect de la
         vie privée,
         disponible depuis la section "Charte de Protection des Données Personnelles", conformément au Règlement Général
         sur la Protection des Données 2016/679 du 27 avril 2016 («RGPD»).</p>
-    <h3 class="text-xl my-5 mx-20 font-bold">Images</h3>
+    <h3 class="text-md lg:text-xl my-5 mx-20 font-bold">Images</h3>
 
-    <div class="mx-20 my-5  flex flex-col">
+    <div class="mx-5 lg:mx-20 my-5 flex flex-col">
         <p>Photo de <a href="
             https://unsplash.com/fr/@laurenmancke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
                 Lauren
@@ -97,4 +103,4 @@
 </section>
 
 
-<?php $content=ob_get_clean(); $titre="mentions légales" ; require "views/commons/template.php" ; ?>
+<?php $content=ob_get_clean(); $titre="Juunee Concept | Mentions légales"; $url="https://juunee-concept.com/mentions-legales"; $image=""; require "views/commons/template.php" ; ?>
