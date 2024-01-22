@@ -32,10 +32,14 @@ if (!empty($_POST)) {
    $text = Security::secureHTML($_POST['message']);
    
 $to = "contact@tomajune.com";
-$from = $email;
 $message = $email . " vous a envoyé ce message :" . "\n\n" . $text;
-$headers = "From: " . $from;
-mail($to, $subject, $message, $headers);
+
+
+$headers[] = "From: no-reply@juunee-concept.com";
+$headers[] = 'MIME-Version: 1.0';
+$headers[] = 'Content-type: text/html; charset=iso-8859-1';
+
+mail($to, $subject, $message, implode("\r\n", $headers));
 
 require_once "views/message-sent.view.php";
 }

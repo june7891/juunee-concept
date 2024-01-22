@@ -8,10 +8,10 @@
         content="Juunee Concept - Création site internet, applications web et mobiles, référencement et bien plus.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#1A202C" />
-    <meta property="og:title" content="Juunee Concept - Digital Solutions">
+    <meta property="og:title" content="Juunee Concept | Digital Solutions">
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?=$url?>">
-    <meta property=" og:image" content="<?=$image?>">
+    <meta property="og:image" content="<?=$image?>">
     <meta name=" keywords" content="création, site, internet, application, web, mobile, gironde">
     <meta property="og:description"
         content="Juunee Concept - Création site internet, applications web et mobiles, référencement et bien plus.">

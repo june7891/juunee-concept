@@ -145,34 +145,34 @@
 
         <h2 class="my-8 text-2xl xl:text-3xl tracking-tight font-extrabold text-center  text-gray-900 dark:text-white">
             Notre
-            Approche</h2>
+            approche</h2>
 
         <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-12 md:space-y-0">
             <div class="bg-white p-10 shadow-xl">
 
                 <h3 class="mb-2 text-xl font-bold dark:text-white">Analyse approfondie</h3>
-                <p class="text-gray-500 dark:text-gray-400">Analyser de vos besoins, votre
+                <p class="text-gray-700 dark:text-gray-400">Analyser de vos besoins, votre
                     public
                     cible et vos
-                    exigences pour façonner des solutions numériques sur mesure.</p>
+                    exigences pour créer des solutions numériques sur mesure.</p>
             </div>
             <div class="bg-white p-10 shadow-xl">
 
                 <h3 class="mb-2 text-xl font-bold dark:text-white">Conception créative</h3>
-                <p class="text-gray-500 dark:text-gray-400">Création des interfaces et des expériences
+                <p class="text-gray-700 dark:text-gray-400">Création des interfaces et des expériences
                     utilisateur engageantes et esthétiquement plaisantes</p>
             </div>
             <div class="bg-white p-10 shadow-xl">
 
                 <h3 class="mb-2 text-xl font-bold dark:text-white">Développement expert </h3>
-                <p class="text-gray-500 dark:text-gray-400">Utilisation
+                <p class="text-gray-700 dark:text-gray-400">Utilisation
                     des dernières technologies pour donner
                     vie à
                     vos projets et les rendre fonctionnels et performants.</p>
             </div>
             <div class="bg-white p-10 shadow-xl">
                 <h3 class="mb-2 text-xl font-bold dark:text-white">Collaboration transparente</h3>
-                <p class="text-gray-500 dark:text-gray-400">Communication ouverte et régulière
+                <p class="text-gray-700 dark:text-gray-400">Communication ouverte et régulière
                     avec
                     nos clients
                     pour
@@ -193,13 +193,20 @@
     <div class="projects-container grid grid-cols-2 md:grid-cols-3 gap-4" data-aos="fade-up">
 
         <div class="img-container rounded-lg shadow-xl">
-            <a href="https:/njlonettoyage.fr" target="_blank">
+            <a href="https://njlonettoyage.fr" target="_blank">
                 <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/njlonettoyage.png"
                     alt="site internet pour NJ&LO Nettoyage écoresponsable">
                 <p class="img-description text-sm font-regular">Un site internet pour "NJ&LO Nettoyage", entreprise de
                     nettoyage écoresponsable en Gironde.
                 </p>
             </a>
+        </div>
+        <div class="img-container rounded-lg shadow-xl">
+            <a href="https://clossaintsauveur.com/" target="_blank">
+                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/saint-sauveur.jpg"
+                    alt="site internet pour le gîte Clos Saint Sauveur"></a>
+            <p class="img-description text-sm font-regular">Un site web pour le gîte Clos Saint Sauveur (Sud Gironde)
+            </p>
         </div>
         <div class="img-container rounded-lg shadow-xl">
             <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/clubadosapp.jpg"
@@ -238,13 +245,7 @@
             <p class="img-description text-sm font-regular">Un site web pour une entreprise de transport international
             </p>
         </div>
-        <div class="img-container rounded-lg shadow-xl">
-            <a href="https://clossaintsauveur.com/" target="_blank">
-                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/saint-sauveur.jpg"
-                    alt="site internet pour la maison d'hôtes Clos Saint Sauveur"></a>
-            <p class="img-description text-sm font-regular">Un site web pour une maison d'hôtes
-            </p>
-        </div>
+
         <div class="img-container rounded-lg shadow-xl">
             <a href="/" target="_blank">
                 <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/epique-restaurant.png"
