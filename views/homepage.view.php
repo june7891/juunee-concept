@@ -281,7 +281,7 @@
             Ensemble,
             créons quelque chose d'extraordinaire !
         </p>
-        <form method="POST" action=" sendMessage" class="space-y-8">
+        <form method="POST" action="sendMessage" class="space-y-8">
             <div>
                 <label for="email" class="block mb-2 text-sm font-medium text-gray-100 dark:text-gray-300">Votre
                     email</label>

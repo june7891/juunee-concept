@@ -1,6 +1,15 @@
 <?php
 require_once "Utils/Security.class.php";
 
+// use PHPMailer\PHPMailer\PHPMailer;
+// require 'vendor/autoload.php';
+
+
+
+
+
+
+
 class MainController {
     public function getHomepage(){
         require_once "views/homepage.view.php";
@@ -20,32 +29,27 @@ class MainController {
         require_once "views/mentions-legales.view.php";
     }
 
+public function sendMessage(){
+    if(!empty($_POST)){
+        $email = htmlentities($_POST['email']);
+        $email_subject = htmlentities($_POST['subject']);
+        $message = htmlentities($_POST['message']);
+        $to = 'toma.june@gmail.com';
+        
+$subject = $email_subject;
+$body =  $email . ' vous a envoyé ce message: ' . $message;
+$headers = 'From: no-reply@juunee-concept.com' . "\r\n" .
+    'Reply-To: no-reply@juunee-concept.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
 
-
-    public function sendMessage(){
-
-$errors = [];
-
-if (!empty($_POST)) {
-   $email = Security::secureHTML($_POST['email']);
-   $subject = Security::secureHTML($_POST['subject']);
-   $text = Security::secureHTML($_POST['message']);
-   
-$to = "contact@tomajune.com";
-$message = $email . " vous a envoyé ce message :" . "\n\n" . $text;
-
-
-$headers[] = "From: no-reply@juunee-concept.com";
-$headers[] = 'MIME-Version: 1.0';
-$headers[] = 'Content-type: text/html; charset=iso-8859-1';
-
-mail($to, $subject, $message, implode("\r\n", $headers));
-
-require_once "views/message-sent.view.php";
-}
-
-
-
-      
+    if(mail($to, $subject, $body, $headers)){
+        require_once "views/message-sent.view.php";
+    } else {
+              header('Location: ' . URL . "#contact");
     }
+
+    
+} 
+    }
+   
 }

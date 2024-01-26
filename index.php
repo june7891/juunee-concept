@@ -25,7 +25,7 @@ define("URL", str_replace("index.php", "" , (isset($_SERVER['HTTPS']) ? "https" 
                     $mainController->getLegalPage();
                     break;
                 case "sendMessage":
-                    $mainController->sendMessage();
+                    $mainController->envoi_mail();
                     break;
                 case "creation-site-internet":
                     $mainController->getWebsitePage();
