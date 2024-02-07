@@ -238,13 +238,6 @@
             <p class="img-description text-sm font-regular">Un site web pour une association culturelle
             </p>
         </div>
-        <div class="img-container rounded-lg shadow-xl">
-            <a href="https://unity-cargo.tomajune.com/" target="_blank">
-                <img class="h-full max-w-full rounded-lg image" src="<?= URL ?>assets/images/unity-cargo.png"
-                    alt="site internet pour une entreprise de transport international"></a>
-            <p class="img-description text-sm font-regular">Un site web pour une entreprise de transport international
-            </p>
-        </div>
 
         <div class="img-container rounded-lg shadow-xl">
             <a href="/" target="_blank">
