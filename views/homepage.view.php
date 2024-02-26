@@ -296,6 +296,7 @@
                     class="block p-3  w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-100 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                     placeholder="Votre message ici..."></textarea>
             </div>
+            <div class="g-recaptcha" data-sitekey="6LcPHH8pAAAAACAFTAh8HObp3lReuGpLXTXPWtp0"></div>
             <button type="submit"
                 class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-gray-700 sm:w-fit hover:bg-gray-100 hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Envoyer</button>
         </form>
